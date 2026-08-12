@@ -21,3 +21,16 @@ The analysis uses 3,000 smartphone purchase observations containing customer dem
 Each customer's observed purchase was analyzed alongside the set of smartphone alternatives available to them, enabling both customer segmentation and discrete choice modeling.
 
 > **Note:** This project was developed from coursework completed in Customer Analytics at the University of California, San Diego. Course-provided datasets and instructional materials are not redistributed in this repository.
+
+## Analytical Approach
+### 1. Customer Segmentation — K-means Clustering
+
+Customer smartphone usage variables were standardized prior to clustering to ensure that differences in measurement scales did not disproportionately influence the results. I then applied K-means clustering to identify groups of customers with similar smartphone usage patterns.
+
+The analysis revealed three distinct behavioral segments:
+
+- **High Social Users** — customers characterized by comparatively high social media usage
+- **Light Users** — customers with relatively low overall smartphone usage
+- **High Gaming Users** — customers characterized by comparatively high gaming activity
+
+These segments demonstrate meaningful behavioral differences across customers and provide a foundation for incorporating customer heterogeneity into subsequent smartphone choice models.
