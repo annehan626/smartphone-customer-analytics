@@ -1,2 +1,3 @@
-# smartphone-customer-analytics
-Customer segmentation, choice modeling, and pricing strategy using K-means clustering and multinomial logit in R.
+# Smartphone Customer Analytics: Segmentation, Choice Modeling & Pricing Strategy
+
+Customer analytics project using R, K-means clustering, multinomial logit modeling, and pricing simulations to analyze smartphone purchasing behavior.
