@@ -70,3 +70,18 @@ I then evaluated predicted profitability across alternative price points. Under 
 | Simulated Maximum | $749 | $899 | $1,271 |
 
 This analysis demonstrates how estimated customer preferences can be translated into pricing recommendations by balancing changes in demand, competitive substitution, and profitability.
+
+## Key Insights
+- **Behavioral segmentation revealed distinct customer profiles.** K-means clustering identified High Social, Light, and High Gaming users based on differences in smartphone usage behavior.
+- **Customer heterogeneity improved choice modeling.** Incorporating behavioral differences increased brand prediction accuracy from **42.7% to 44.0%**.
+- **Price changes created competitive substitution effects.** As S1's price increased, its predicted market share declined while competing smartphones gained share.
+- **Choice modeling supported an actionable pricing recommendation.** Within the simulated range, reducing S1's price from **$799 to $749** increased predicted total profit from **$1,253M to $1,271M**.
+
+## Tools & Methods
+**Language:** R
+
+**Libraries:** tidyverse, ggplot2, mlogit
+
+**Methods:** K-means Clustering, Data Standardization, Multinomial Logit (MNL), Interaction Modeling, Predictive Model Evaluation, Market Share Simulation, Pricing Analysis
+
+
