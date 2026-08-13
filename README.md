@@ -58,6 +58,10 @@ Using the estimated choice model, I simulated changes in the price of a focal sm
 
 The simulation showed that increasing the focal product's price reduced its predicted market share while shifting demand toward competing smartphones, illustrating the substitution effects captured by the choice model.
 
+![Estimated market share response to S1 price changes](figures/pricing_market_share.png)
+
+*Predicted market-share response across six smartphone alternatives as the price of S1 changes. Higher S1 prices reduce its predicted share while competing products gain share.*
+
 I then evaluated predicted profitability across alternative price points. Under the assumptions used in the simulation, the model identified a price of **$749**, compared with the current price of **$799**, as the profit-maximizing price within the evaluated range.
 
 | Scenario | S1 Price | S2 Price | Predicted Profit |
