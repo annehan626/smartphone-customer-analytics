@@ -76,13 +76,14 @@ I extended the choice model to evaluate the potential impact of a celebrity endo
 
 The simulated endorsement increased predicted market share for both Samsung products, demonstrating how changes in brand perception can influence customer choice and competitive demand.
 
-I then translated the estimated demand lift into projected financial outcomes by comparing revenues, costs, and profits before and after the endorsement scenario. This analysis illustrates how discrete choice models can be extended beyond pricing to evaluate marketing and brand strategy.
+I then translated the estimated demand lift into projected financial outcomes by comparing revenues, costs, and profits before and after the endorsement scenario. Under the simulation assumptions, the endorsement generated **$4.23M in projected incremental profit** before accounting for the endorsement fee, providing an estimated upper bound on the financially viable cost of the partnership.
 
 ## Key Insights
 - **Behavioral segmentation revealed distinct customer profiles.** K-means clustering identified High Social, Light, and High Gaming users based on differences in smartphone usage behavior.
 - **Customer heterogeneity improved choice modeling.** Incorporating behavioral differences increased brand prediction accuracy from **42.7% to 44.0%**.
 - **Price changes created competitive substitution effects.** As S1's price increased, its predicted market share declined while competing smartphones gained share.
 - **Choice modeling supported an actionable pricing recommendation.** Within the simulated range, reducing S1's price from **$799 to $749** increased predicted total profit from **$1,253M to $1,271M**.
+- **Marketing scenarios can be evaluated financially.** The simulated celebrity endorsement generated **$4.23M in projected incremental profit** before endorsement costs, providing an estimated upper bound on the financially viable partnership cost.
 
 ## Tools & Methods
 **Language:** R
