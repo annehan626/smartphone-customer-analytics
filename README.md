@@ -92,4 +92,14 @@ I then translated the estimated demand lift into projected financial outcomes by
 
 **Methods:** K-means Clustering, Data Standardization, Multinomial Logit (MNL), Interaction Modeling, Predictive Model Evaluation, Market Share Simulation, Pricing Analysis
 
+## Project Structure
+- `README.md` — Project overview, methodology, results, and business insights
+- `figures/` — Visualizations from the customer segmentation and pricing analyses
+- `analysis/` — R scripts used for data preparation, modeling, and simulations
+
+## Author
+**Anne Han**  
+M.S. Business Analytics Candidate, UCLA Anderson School of Management  
+B.S. Business Economics, University of California, San Diego
+
 
