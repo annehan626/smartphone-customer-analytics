@@ -71,6 +71,13 @@ I then evaluated predicted profitability across alternative price points. Under 
 
 This analysis demonstrates how estimated customer preferences can be translated into pricing recommendations by balancing changes in demand, competitive substitution, and profitability.
 
+### 4. Celebrity Endorsement Simulation
+I extended the choice model to evaluate the potential impact of a celebrity endorsement on smartphone demand and profitability. The simulation increased Samsung brand preference by a specified endorsement effect and generated revised choice probabilities across the six competing smartphones.
+
+The simulated endorsement increased predicted market share for both Samsung products, demonstrating how changes in brand perception can influence customer choice and competitive demand.
+
+I then translated the estimated demand lift into projected financial outcomes by comparing revenues, costs, and profits before and after the endorsement scenario. This analysis illustrates how discrete choice models can be extended beyond pricing to evaluate marketing and brand strategy.
+
 ## Key Insights
 - **Behavioral segmentation revealed distinct customer profiles.** K-means clustering identified High Social, Light, and High Gaming users based on differences in smartphone usage behavior.
 - **Customer heterogeneity improved choice modeling.** Incorporating behavioral differences increased brand prediction accuracy from **42.7% to 44.0%**.
