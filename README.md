@@ -4,7 +4,7 @@ Customer analytics project using R, K-means clustering, multinomial logit modeli
 ## Overview
 This project analyzes smartphone purchasing behavior using customer-level demographic, usage, product, and pricing data. Using a dataset of 3,000 customer purchases, I applied K-means clustering and multinomial logit (MNL) choice modeling to identify behavioral customer segments, estimate product preferences, and evaluate strategic pricing decisions.
 
-The analysis demonstrates how customer heterogeneity can be incorporated into predictive choice models to generate actionable insights for customer targeting, product positioning, and pricing strategy.
+The analysis demonstrates how customer heterogeneity can be incorporated into predictive choice models to generate actionable insights for customer targeting, product positioning, pricing, and marketing strategy.
 
 ## Business Problem
 Smartphone customers differ substantially in how they use their devices and how they respond to product attributes such as brand, screen size, and price. Treating all customers as having identical preferences can therefore overlook meaningful differences in purchasing behavior.
@@ -64,7 +64,7 @@ The simulation showed that increasing the focal product's price reduced its pred
 
 I then evaluated predicted profitability across alternative price points. Under the assumptions used in the simulation, the model identified a price of **$749**, compared with the current price of **$799**, as the profit-maximizing price within the evaluated range.
 
-| Scenario | S1 Price | S2 Price | Predicted Profit |
+| Scenario | S1 Price | S2 Price | Predicted Profit ($M) |
 | --- | ---: | ---: | ---: |
 | Current Pricing | $799 | $899 | $1,253 |
 | Simulated Maximum | $749 | $899 | $1,271 |
@@ -90,7 +90,7 @@ I then translated the estimated demand lift into projected financial outcomes by
 
 **Libraries:** tidyverse, ggplot2, mlogit
 
-**Methods:** K-means Clustering, Data Standardization, Multinomial Logit (MNL), Interaction Modeling, Predictive Model Evaluation, Market Share Simulation, Pricing Analysis
+**Methods:** K-means Clustering, Data Standardization, Multinomial Logit (MNL), Interaction Modeling, Predictive Model Evaluation, Market Share Simulation, Pricing Analysis, Scenario Analysis
 
 ## Project Structure
 - `README.md` — Project overview, methodology, results, and business insights
