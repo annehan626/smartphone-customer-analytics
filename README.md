@@ -24,7 +24,6 @@ Each customer's observed purchase was analyzed alongside the set of smartphone a
 
 ## Analytical Approach
 ### 1. Customer Segmentation — K-means Clustering
-
 Customer smartphone usage variables were standardized prior to clustering to ensure that differences in measurement scales did not disproportionately influence the results. I then applied K-means clustering to identify groups of customers with similar smartphone usage patterns.
 
 The analysis revealed three distinct behavioral segments:
@@ -38,3 +37,18 @@ These segments demonstrate meaningful behavioral differences across customers an
 ![Customer segments based on smartphone usage behavior](figures/customer_segments.png)
 
 *Customer segments based on social media and gaming usage. Black points represent K-means cluster centroids.*
+
+### 2. Smartphone Choice Modeling — Multinomial Logit
+To model smartphone purchasing decisions, I applied multinomial logit (MNL) models to estimate how product attributes and customer characteristics influenced the probability of choosing among competing smartphones.
+
+The models incorporated differences in preferences associated with:
+
+- **Brand**
+- **Price**
+- **Screen size**
+- **Smartphone usage behavior**
+- **Behavioral customer segment**
+
+I progressively incorporated customer heterogeneity through interactions between product attributes and customer characteristics, allowing preferences for features such as brand, price, and screen size to vary across customers.
+
+The enhanced behavioral model achieved **44.0% brand prediction accuracy**, compared with **42.7%** for the initial segmented model — a **1.3 percentage-point improvement**.
