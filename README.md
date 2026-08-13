@@ -34,3 +34,7 @@ The analysis revealed three distinct behavioral segments:
 - **High Gaming Users** — customers characterized by comparatively high gaming activity
 
 These segments demonstrate meaningful behavioral differences across customers and provide a foundation for incorporating customer heterogeneity into subsequent smartphone choice models.
+
+![Customer segments based on smartphone usage behavior](figures/customer_segments.png)
+
+*Customer segments based on social media and gaming usage. Black points represent K-means cluster centroids.*
