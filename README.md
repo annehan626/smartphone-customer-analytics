@@ -52,3 +52,17 @@ The models incorporated differences in preferences associated with:
 I progressively incorporated customer heterogeneity through interactions between product attributes and customer characteristics, allowing preferences for features such as brand, price, and screen size to vary across customers.
 
 The enhanced behavioral model achieved **44.0% brand prediction accuracy**, compared with **42.7%** for the initial segmented model — a **1.3 percentage-point improvement**.
+
+### 3. Pricing & Competitive Simulation
+Using the estimated choice model, I simulated changes in the price of a focal smartphone to evaluate how customers would respond and how demand would shift across competing products.
+
+The simulation showed that increasing the focal product's price reduced its predicted market share while shifting demand toward competing smartphones, illustrating the substitution effects captured by the choice model.
+
+I then evaluated predicted profitability across alternative price points. Under the assumptions used in the simulation, the model identified a price of **$749**, compared with the current price of **$799**, as the profit-maximizing price within the evaluated range.
+
+| Scenario | S1 Price | S2 Price | Predicted Profit |
+| --- | ---: | ---: | ---: |
+| Current Pricing | $799 | $899 | $1,253 |
+| Simulated Maximum | $749 | $899 | $1,271 |
+
+This analysis demonstrates how estimated customer preferences can be translated into pricing recommendations by balancing changes in demand, competitive substitution, and profitability.
